@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Carrito de Compras</title>
+  <link href="css/styles.css" rel="stylesheet" >
+
+  <style>
+
+    /* Estilos CSS */
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="uls">
+      <ul>
+        <li>Bienvenidos a Viveros Amapola 2023</li>
+      </ul>
+        <ul id="unique">
+            <li>Inicio</li>
+            <li>Catálogo</li>
+            <li>Categorías</li>
+            <li>Contacto</li>
+        </ul>
+    </nav>
+
+     <!-- Formulario de registro -->
+  <h2>Registro</h2>
+  <form id="registroForm">
+    <label for="correo">Correo:</label>
+    <input type="email" id="correo" required>
+    <br>
+    <label for="clave">Clave:</label>
+    <input type="password" id="clave" minlength="8" required>
+    <br>
+    <label for="confirmarClave">Confirmar Clave:</label>
+    <input type="password" id="confirmarClave" minlength="8" required>
+    <br>
+    <input type="submit" value="Registrar">
+  </form>
+
+  <!-- Formulario de inicio de sesión -->
+  <h2>Iniciar sesión</h2>
+  <form id="loginForm">
+    <label for="correoLogin">Correo:</label>
+    <input type="email" id="correoLogin" required>
+    <br>
+    <label for="claveLogin">Clave:</label>
+    <input type="password" id="claveLogin" required>
+    <br>
+    <input type="submit" value="Iniciar sesión">
+  </form>
+
+        <h1 class="lahuno">Encuentra tu planta ideal, dale vida a tus espacios.</h1>
+
+    <div class="ola" style="height: 150px; overflow: hidden;">
+        <svg viewBox= "0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+            <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" 
+                style="stroke: none; fill:#08f;">
+            </path>
+        </svg>
+    </div>
+    
+</header>
+
+  <!-- Catálogo de productos -->
+  <h1>Catálogo</h1>
+  <div id="catalogo"></div>
+
+  <!-- Carrito de compras -->
+  <h2>Carrito de compras</h2>
+  <div id="carrito"></div>
+
+  <!-- Inventario -->
+  <h2>Inventario</h2>
+  <div id="inventario"></div>
+
+  <script src="javascript/javascript.js"></script>
+
+
+  <nav>
+    <ul class="unique">
+        <li>Vivero Amapolas 2023</li>
+        <li>Todos los derechos reservados.</li>
+    </ul>
+</nav>
+
+
+
+</body>
+</html>
